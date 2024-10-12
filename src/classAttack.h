@@ -28,14 +28,14 @@ class Attack {
 
         //Setters
         void setAttackName(std::string name);
-        int setPower(int);
-        int setAccuracy(int);
-        int setPowerPointsMax(int);
-        int setPowerPoints(int);
+        void setPower(int);
+        void setAccuracy(int);
+        void setPowerPointsMax(int);
+        void setPowerPoints(int);
 
         //Methods
         void minusOnePP();
-        bool checkPP();
+        bool PPleft();
         bool checkHit();
 
 };
