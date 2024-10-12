@@ -1,9 +1,10 @@
+#include <string>
 #include <iostream>
-#include <"classPokemon.h">
+#include "classPokemon.h"
 
 int main() {
-    Pokemon::Gengar("Gengar", 100, 100, 100);
+    Pokemon Pokemon("Gengar", 100, 100, 100);
 
-    std::cout  << Gengar.getPokemonName() << std::endl;
+    std::cout  << "" << std::endl;
     return 0;
 }

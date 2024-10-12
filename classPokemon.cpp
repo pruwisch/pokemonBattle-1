@@ -9,29 +9,29 @@ Pokemon::Pokemon(std::string name, int attack, int defense, int speed) {
 }
 
 //Getters
-std::string getName() {
+std::string Pokemon::getName() {
     return pokemonName;
 }
-int getAttackStat() {
+int Pokemon::getAttackStat() {
     return attackStat;
 }
-int getDefenseStat() {
+int Pokemon::getDefenseStat() {
     return defenseStat;
 }
-int getSpeedStat() {
+int Pokemon::getSpeedStat() {
     return speedStat;
 }
 
 //Setters
-void setPokemonName(std::string name) {
+void Pokemon::setPokemonName(std::string name) {
     pokemonName = name;
 }
-void setAttackStat(int x) {
+void Pokemon::setAttackStat(int x) {
     attackStat = x;
 }
-void setDefenseStat(int x) {
+void Pokemon::setDefenseStat(int x) {
     defenseStat = x;
 }
-void setSpeedStat(int x) {
+void Pokemon::setSpeedStat(int x) {
     speedStat = x;
 }
