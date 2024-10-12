@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
-    std::cout  << "Let's Goooo!" << std::endl;
+    Pokemon("Gengar", 100, 100, 100);
+
+    std::cout  << Gengar.getPokemonName() << std::endl;
     return 0;
 }
