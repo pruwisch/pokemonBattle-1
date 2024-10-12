@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CLASSPOKEMON_H
+#define CLASSPOKEMON_H
 
 #include <string>
 
@@ -31,3 +32,4 @@ class Pokemon {
 
 };
 
+#endif // CLASSPOKEMON_H
