@@ -1,6 +1,5 @@
 #pragma once
 
-#include <iostream>
 #include <string>
 
 
@@ -14,41 +13,20 @@ class Pokemon {
         
     public:
     //Constructor
-        Pokemon(std::string name, int attack, int defense, int speed) {
-            setPokemonName(name);
-            setAttackStat(attack);
-            setDefenseStat(defense);
-            setSpeedStat(speed);
-        }
+        Pokemon(std::string name, int attack, int defense, int speed);
 
     
         //Getters
-        std::string getName() {
-            return pokemonName;
-        }
-        int getAttackStat() {
-            return attackStat;
-        }
-        int getDefenseStat() {
-            return defenseStat;
-        }
-        int getSpeedStat() {
-            return speedStat;
-        }
+        std::string getName();
+        int getAttackStat();
+        int getDefenseStat();
+        int getSpeedStat();
 
         //Setters
-        void setPokemonName(std::string name) {
-            pokemonName = name;
-        }
-        void setAttackStat(int x) {
-            attackStat = x;
-        }
-        void setDefenseStat(int x) {
-            defenseStat = x;
-        }
-        void setSpeedStat(int x) {
-            speedStat = x;
-        }
+        void setPokemonName(std::string name);
+        void setAttackStat(int x);
+        void setDefenseStat(int x);
+        void setSpeedStat(int x);
         
 
 };
