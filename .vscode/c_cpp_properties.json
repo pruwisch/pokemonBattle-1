@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/pruwisch/OneDrive - SIEVERS-GROUP/Dokumente/Git Repos/pokemonBattle"
+                "C:/Users/pruwisch/OneDrive - SIEVERS-GROUP/Dokumente/Git Repos/pokemonBattle/**"
             ],
             "defines": [
                 "_DEBUG",
