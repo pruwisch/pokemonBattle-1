@@ -12,6 +12,7 @@ class Pokemon {
         int defenseStat;
         int speedStat;
         
+        
     public:
     //Constructor
         Pokemon(std::string name, int attack, int defense, int speed);
