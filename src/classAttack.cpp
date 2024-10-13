@@ -49,7 +49,7 @@ void Attack::minusOnePP() {
     setPowerPoints(powerPoints -1);
 }
 bool Attack::PPleft() {
-    return (powerPoints < 0);
+    return (powerPoints > 0);
 }
 
 bool Attack::checkHit() {

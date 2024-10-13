@@ -14,7 +14,7 @@ class Pokemon {
         int attackStat;
         int defenseStat;
         int speedStat;
-        Attack move1;
+        //Attack move1;
         //Attack move2;
         //Attack move3;
         //Attack move4;
@@ -22,7 +22,7 @@ class Pokemon {
         
     public:
         //Constructor
-        Pokemon(std::string name, int hpmax, int hp, int attack, int defense, int speed, Attack m1/*/, Attack m2, Attack m3, Attack m4/*/);
+        Pokemon(std::string name, int hpmax, int attack, int defense, int speed)/*/ Attack m1, Attack m2, Attack m3, Attack m4/*/;
 
     
         //Getters
@@ -32,7 +32,7 @@ class Pokemon {
         int getAttackStat();
         int getDefenseStat();
         int getSpeedStat();
-        Attack getMove1();
+        //Attack getMove1();
         //Attack getMove2();
         //Attack getMove3();
         //Attack getMove4();
@@ -44,7 +44,7 @@ class Pokemon {
         void setAttackStat(int x);
         void setDefenseStat(int x);
         void setSpeedStat(int x);
-        void setMove1(Attack);
+        //void setMove1(Attack);
         //void setMove2(Attack);
         //void setMove3(Attack);
         //void setMove4(Attack);

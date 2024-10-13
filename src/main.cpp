@@ -2,8 +2,8 @@
 #include "classPokemon.h"
 
 int main() {
-    Pokemon gengar("Gengar", 100, 100, 100);
+    //Pokemon gengar("Gengar", 100, 100, 100);
 
-    std::cout  << "Pokemon Name: " << gengar.getName() << std::endl;
+    //std::cout  << "Pokemon Name: " << gengar.getName() << std::endl;
     return 0;
 }
