@@ -1,6 +1,8 @@
 #include "classAttack.h"
 
 //Constructor
+Attack::Attack() {};
+
 Attack::Attack(std::string name, int pwr, int acc, int ppmax) {
     setAttackName(name);
     setPower(pwr);

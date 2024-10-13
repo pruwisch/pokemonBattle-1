@@ -16,6 +16,7 @@ class Attack {
         
     public:
         //Constructor
+        Attack();
         Attack(std::string name, int power, int accuracy, int powerpointMax);
 
     
